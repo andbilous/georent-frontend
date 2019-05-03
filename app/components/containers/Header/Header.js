@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../elements/Button/index';
+import Field from '../../elements/Field/index';
 import './style.scss';
 
 class Header extends Component { // eslint-disable-line react/prefer-stateless-function
@@ -13,6 +15,8 @@ class Header extends Component { // eslint-disable-line react/prefer-stateless-f
           <Link className="router-link" to="/signup">
             Sign Up
           </Link>
+          <Button />
+          {/* <Field /> */}
         </div>
       </div>
     );
